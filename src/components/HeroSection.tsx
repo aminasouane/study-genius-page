@@ -27,14 +27,10 @@ const HeroSection = () => {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <div className="flex justify-center lg:justify-start">
               <Button variant="hero" size="lg" className="px-8 py-4">
                 <Sparkles className="w-5 h-5 ml-2" />
                 جرّب مجانًا
-              </Button>
-              
-              <Button variant="outline" size="lg" className="px-8 py-4">
-                شاهد كيف يعمل
               </Button>
             </div>
 
