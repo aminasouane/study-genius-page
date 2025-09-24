@@ -60,10 +60,10 @@ const PricingSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            اختر الباقة المناسبة لك
+            اختر الباقة التي تناسبك
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            باقات مرنة تناسب احتياجاتك الدراسية مع ضمان الجودة وإمكانية الإلغاء في أي وقت
+            باقات مرنة ومناسبة لكل طالب – بدون التزامات طويلة
           </p>
         </div>
 

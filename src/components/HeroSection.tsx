@@ -23,14 +23,14 @@ const HeroSection = () => {
               </h1>
               
               <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl">
-                جرّب 5 دقائق تلخيص مجانية واكتشف كيف يمكن للذكاء الاصطناعي أن يوفر وقتك ويحسن درجاتك
+                وفّر وقتك مع تطبيق التلخيص الذكي – حمّل محاضرتك وخذ ملخصًا واضحًا في دقائق. جرّب 5 دقائق مجانية الآن.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button variant="hero" size="lg" className="px-8 py-4">
-                <Play className="w-5 h-5 ml-2" />
-                ابدأ تجربتك المجانية الآن
+                <Sparkles className="w-5 h-5 ml-2" />
+                جرّب مجانًا
               </Button>
               
               <Button variant="outline" size="lg" className="px-8 py-4">

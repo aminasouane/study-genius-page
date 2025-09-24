@@ -9,12 +9,12 @@ const CTASection = () => {
           {/* Main CTA */}
           <div className="space-y-6">
             <h2 className="text-3xl md:text-5xl font-bold leading-tight">
-              ابدأ الآن ووفّر وقتك للمذاكرة،{" "}
-              <span className="text-primary-light">مش للكتابة!</span>
+              وفّر وقتك للمذاكرة…{" "}
+              <span className="text-primary-light">مش للكتابة</span>
             </h2>
             
             <p className="text-xl md:text-2xl text-primary-light/90 max-w-2xl mx-auto">
-              انضم لآلاف الطلاب الذين حسنوا درجاتهم ووفروا وقتهم مع تطبيقنا
+              ابدأ رحلتك الآن مع أول تطبيق عربي للتلخيص الذكي، وجرب 5 دقائق مجانية يوميًا بدون أي التزام.
             </p>
           </div>
 
@@ -26,7 +26,7 @@ const CTASection = () => {
               className="bg-white text-primary hover:bg-primary-light hover:text-primary-dark font-bold text-lg px-8 py-4 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
             >
               <Sparkles className="w-6 h-6 ml-2" />
-              جرّب مجانًا (5 دقائق)
+              جرّب مجانًا
             </Button>
             
             <Button 
@@ -34,7 +34,7 @@ const CTASection = () => {
               size="lg" 
               className="border-white text-white hover:bg-white hover:text-primary font-bold text-lg px-8 py-4 transition-all duration-300"
             >
-              اختر باقتك الآن
+              اختر باقتك
               <ArrowLeft className="w-5 h-5 mr-2" />
             </Button>
           </div>

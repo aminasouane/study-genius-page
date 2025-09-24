@@ -3,26 +3,26 @@ import { Clock, Brain, FolderOpen, Gift } from "lucide-react";
 const features = [
   {
     icon: Clock,
-    title: "وفّر وقتك",
-    description: "تلخيص محاضرات طويلة في دقائق معدودة بدلاً من ساعات من الكتابة",
+    title: "سرعة فائقة",
+    description: "تلخيص محاضرات نصف ساعة في أقل من دقيقة",
     color: "text-primary"
   },
   {
-    icon: Brain,
-    title: "ركز على الفهم",
-    description: "اترك التلخيص على الذكاء الاصطناعي وركز على فهم المحتوى والاستعداد للامتحانات",
+    icon: FolderOpen,
+    title: "ملخصات جاهزة",
+    description: "نصوص واضحة وسهلة المراجعة",
     color: "text-primary-dark"
   },
   {
-    icon: FolderOpen,
-    title: "نظم دراستك",
-    description: "ملخصات جاهزة ومنظمة يمكنك الوصول إليها في أي وقت ومن أي مكان",
+    icon: Brain,
+    title: "ركّز على الفهم",
+    description: "دع الذكاء الاصطناعي يكتب عنك",
     color: "text-primary"
   },
   {
     icon: Gift,
-    title: "تجربة مجانية",
-    description: "جرب التطبيق مجاناً لمدة 5 دقائق حتى تتأكد بنفسك من جودة التلخيص",
+    title: "تجربة مجانية يومية",
+    description: "اختبر الخدمة قبل الاشتراك",
     color: "text-primary-dark"
   }
 ];
@@ -33,10 +33,10 @@ const FeaturesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            لماذا تختار تطبيقنا؟
+            كل ما تحتاجه لتبسيط دراستك في مكان واحد
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            اكتشف كيف يمكن لتطبيقنا أن يحول طريقة دراستك ويوفر وقتك الثمين
+            تطبيق التلخيص الذكي يوفر لك الوقت والجهد لتركز على الفهم والتحصيل
           </p>
         </div>
 
