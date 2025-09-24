@@ -23,6 +23,11 @@ This is a React + Vite landing page for an Arabic AI-powered educational tool th
 - Set up HMR with clientPort 443 for proper hot reloading
 - Configured deployment target as autoscale with build and preview commands
 - Set up workflow for development server
+- Updated landing page components per user specifications:
+  - Hero Section: Simplified to single CTA button "جرّب مجانًا"
+  - Features Section: 4 features with icons (already matched requirements)
+  - Pricing Section: 3 pricing cards in Algerian Dinars (already matched requirements)  
+  - CTA Section: Simplified to dual CTA buttons only, removed app download section
 
 ## Key Features
 - Multi-section landing page (Hero, Features, Pricing, CTA)
